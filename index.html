@@ -19,7 +19,7 @@
         <nav>
             <a href="./index.html" class="web-studio1"><span class="web">WEB</span>STUDIO</a>
             <ul class="navigation">
-                <li><a href="./index.html" class="link1">Studio</a></li>
+                <li><a href="./index.html" class="link1 link-active-index">Studio</a></li>
                 <li><a href="./portfolio.html" class="link1">Portfolio</a></li>
                 <li><a href="#" class="link1">Contacts</a></li>
             </ul>
@@ -35,7 +35,7 @@
         <div class="container">
             <div class="fs-wrapper">       
             <h1 class="head1">Effective Solutions for Your Business</h1>
-            <button type="button" class="order-button">Order Service</button> 
+            <button type="button" class="order-button" data-modal-open>Order Service</button> 
             </div>       
         </div>
         </section>                
@@ -270,54 +270,54 @@
             <div class="fifth-section-wrapper">
             <h2 class="head3">Customers</h2>            
                 <ul class="customers-wrapper">
-                <li>
-                    <a href="#">  
+                <li>                      
                 <div class="icon-wrapper3">
+                    <a href="#">
                     <svg class="customers-logo" width="166px" height="88px" viewBox="0 0 106 90">
                         <use href="./images/Icons.svg#icon-Logo1"></use>
                     </svg>
                     </a> 
                 </div>
                 </li>
-                <li>
-                    <a href="#">
+                <li>                    
                 <div class="icon-wrapper3">
+                    <a href="#">
                     <svg class="customers-logo" width="166px" height="88px" viewBox="0 0 106 90">
                         <use href="./images/Icons.svg#icon-Logo2"></use>
                     </svg>
                     </a>                
                 </div>
                 </li>
-                <li>
-                    <a href="#">
+                <li>                    
                 <div class="icon-wrapper3">
+                    <a href="#">
                     <svg class="customers-logo" width="166px" height="88px" viewBox="0 0 106 90">
                         <use href="./images/Icons.svg#icon-Logo3"></use>
                     </svg>
                     </a>
                 </div>
                 </li>
-                <li>
-                    <a href="#">
+                <li>                    
                 <div class="icon-wrapper3">
+                    <a href="#">
                     <svg class="customers-logo" width="166px" height="88px" viewBox="0 0 106 90">
                         <use href="./images/Icons.svg#icon-Logo4"></use>
                     </svg>
                     </a>
                 </div>
                 </li>
-                <li>
-                    <a href="#">
+                <li>                    
                 <div class="icon-wrapper3">
+                    <a href="#">
                     <svg class="customers-logo" width="166px" height="88px" viewBox="0 0 106 90">
                         <use href="./images/Icons.svg#icon-Logo5"></use>
                     </svg>
                     </a>
                 </div>
                 </li>
-                <li>
-                    <a href="#">
+                <li>                    
                 <div class="icon-wrapper3">
+                    <a href="#">
                     <svg class="customers-logo" width="166px" height="88px" viewBox="0 0 106 90">
                         <use href="./images/Icons.svg#icon-Logo6"></use>
                     </svg>
@@ -370,6 +370,16 @@
                 </ul>                
          </div>
     </div>
-    </footer>     
+    </footer>
+    <div class="modal is-hidden" data-modal>
+        <div class="modal-body">
+            <button class="modal-close" data-modal-close>
+                <svg width="8px" height="8px">
+                    <use href="./images/Icons.svg#icon-closex"></use>
+                </svg>
+                </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
